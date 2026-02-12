@@ -18,6 +18,14 @@ const App = () => {
           <p className="letter-body">
             Ты самая красивая, умная и смешная. Я тебя очень сильно люблю!
           </p>
+          <div className="sunshine-insertion">
+            <h2>Ты мое солнце!</h2>
+            <img 
+              src="https://media.giphy.com/media/3ov9jOuQ3Y1u1I38lO/giphy.gif" 
+              alt="Shining Sun" 
+              className="sun-gif" 
+            />
+          </div>
           <p className="letter-closing">
             Со всей моей любовью!!!<br/>
             Сергей
