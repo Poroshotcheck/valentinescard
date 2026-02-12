@@ -14,14 +14,12 @@ const App = () => {
           <img src={girlfriendImage} alt="My Valentine" className="girlfriend-photo" />
         </div>
         <div className="letter">
-          <h2>Моя дорогая Оля!!!</h2>
-          <p>
+          <h2>Моя дорогая Оля!</h2>
+          <p className="letter-body">
             Ты самая красивая, умная и смешная. Я тебя очень сильно люблю!
           </p>
-          <p>
-            Со всей моей любовью!!!
-          </p>
-          <p>
+          <p className="letter-closing">
+            Со всей моей любовью!!!<br/>
             Сергей
           </p>
         </div>

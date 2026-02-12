@@ -82,12 +82,14 @@
 }
 
 .letter {
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fdfdfd;
+  padding: 2rem 2.5rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   text-align: left;
+  border: 1px solid #f0f0f0;
+  margin-top: 1rem;
 }
 
 .letter h2 {
@@ -95,9 +97,24 @@
   font-size: 2.5rem;
   color: #d92626;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .letter p {
+  margin: 0;
+}
+
+.letter-body {
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.letter-closing {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-align: right;
+  color: #555;
 }
