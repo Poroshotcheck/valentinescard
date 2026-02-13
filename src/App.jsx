@@ -17,7 +17,7 @@ const App = () => {
         <div className="letter">
           <h2>Моя дорогая Оля!</h2>
           <p className="letter-body">
-            Ты самая красивая, умная и смешная. Ты мое солнце <img src={sunGif} alt=" " className="sun-gif-inline" />. Я тебя очень сильно люблю!
+            Ты самая красивая, умная и смешная. Ты мое солнце<img src={sunGif} alt=" " className="sun-gif-inline" />. Я тебя очень сильно люблю!
           </p>
           <p className="letter-closing">
             Со всей моей любовью!!!<br/>
